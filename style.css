@@ -79,13 +79,24 @@ img {
 /* Eserecizio */
 
 @media screen and (max-width: 420px){
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:not(h1, h3){
+  font-size: 12px;
+}
+
   #lezioni{
-    background-color: yellow;
+    background-color: #f2f2cd;
     width: 420px;
   }
 
   #lezioni .row{
-    width: 90%;
+    width: 100%;
+    margin-top: 0;
   }
 
   #lezioni .row > .left,
