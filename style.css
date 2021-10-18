@@ -84,29 +84,45 @@ img {
   margin: 0;
   box-sizing: border-box;
 }
-
 *:not(h1, h3){
   font-size: 12px;
 }
+img{
+  height: 100px;
+} 
 
-  #lezioni{
+  #lezioni,
+  #why{
     background-color: #f2f2cd;
-    width: 420px;
   }
 
-  #lezioni .row{
+  #lezioni .row,
+  #steps .row,
+  #why .row{
     width: 100%;
     margin-top: 0;
   }
 
   #lezioni .row > .left,
-  #lezioni .row > .right{
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right,
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third{
     float: none;
     width: 100%;
   }
 
-  img{
-    height: 100px;
-  } 
+  #steps{
+    background-color: white;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  margin-top: 10px;
+}
 
 }
