@@ -90,10 +90,10 @@ img {
 
   #lezioni .row > .left,
   #lezioni .row > .right{
-    width: 50%;
-    float: left;
     float: none;
+    width: 100%;
   }
+
   img{
     height: 100px;
   } 
