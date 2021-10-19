@@ -91,38 +91,36 @@ img{
   height: 100px;
 } 
 
-  #lezioni,
-  #why{
-    background-color: #f2f2cd;
-  }
+#lezioni,
+#why{
+  background-color: #f2f2cd;
+}
+#steps{
+background-color: white;
+}
 
-  #lezioni .row,
-  #steps .row,
-  #why .row{
-    width: 100%;
-    margin-top: 0;
-  }
+#lezioni .row,
+#steps .row,
+#why .row{
+  width: 100%;
+  margin-top: 0;
+}
 
-  #lezioni .row > .left,
-  #lezioni .row > .right,
-  #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right,
-  #why .row > .first,
-  #why .row > .second,
-  #why .row > .third{
-    float: none;
-    width: 100%;
-  }
+#lezioni .row > .left,
+#lezioni .row > .right,
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right,
+#why .row > .first,
+#why .row > .second,
+#why .row > .third{
+  width: 100%;
+}
 
-  #steps{
-    background-color: white;
-  }
-
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-  margin-top: 10px;
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+margin-top: 10px;
 }
 
 }
